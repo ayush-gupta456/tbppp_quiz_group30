@@ -1,0 +1,142 @@
+
+  .quiz-container {
+    width: 100%;
+    max-width: 42rem;
+  } 
+  
+  header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .quiz-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  
+  #question-counter {
+    color: black;
+  }
+  
+  #score-display {
+    color: #3B82F6;
+  }
+  
+  #quiz-card {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+  }
+  
+  #question-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  #options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .option-button {
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: antiquewhite;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .option-button:hover {
+    background: gray;
+  }
+  
+  .option-button.selected {
+    background: blue;
+    color: white;
+  }
+  
+  #next-button {
+    display: block;
+    margin-left: auto;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #next-button:hover {
+    background: blue;
+  }
+  
+  #score-card {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #score-card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  #final-score {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 0.5rem;
+  }
+  
+  #score-percentage {
+    font-size: 1.125rem;
+    color: #4B5563;
+    margin-bottom: 1.5rem;
+  }
+  
+  #restart-button {
+    padding: 0.75rem 1.5rem;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #restart-button:hover {
+    background: blue;
+  }
+  
+  .hidden {
+    display: none;
+  }
