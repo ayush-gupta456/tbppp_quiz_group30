@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 const port =3000;
 
-app.use(express.static(path.join('/', 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 const questions = require('./questions.json');
 
